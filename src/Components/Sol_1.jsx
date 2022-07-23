@@ -30,10 +30,7 @@ function Sol_1() {
     console.log(alternatingSums(weights))
 
   return (
-    <div>
-        <input placeholder='Ex1'/>
-        <input placeholder='Ex2'/>
-    </div>
+    <div></div>
   )
 }
 

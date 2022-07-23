@@ -30,7 +30,7 @@ function Sol_1() {
     console.log(alternatingSums(weights))
 
   return (
-    <div></div>
+    <></>
   )
 }
 

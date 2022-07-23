@@ -22,7 +22,7 @@ function ShortenLink() {
             const res = await axios(`https://api.shrtco.de/v2/shorten?url=${link}`)
             setShortenLink(res.data.result.full_short_link)
         } catch(err) {
-            setErr(err)
+            setErr(true)
         } finally {
             setLoading(false)
         }
@@ -40,7 +40,7 @@ function ShortenLink() {
 
     if(err) {
         return (
-            <div>Something went wrong :(</div>
+            <div className='container'>Something went wrong :(</div>
         )
     }
 

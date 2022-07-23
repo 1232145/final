@@ -29,7 +29,7 @@ function ShortenLink() {
     }
 
     useEffect(() => {
-        if (link.length) {fetchData()}
+        if (link.length > 0) {fetchData()}
     }, [link])
 
     if(loading) {

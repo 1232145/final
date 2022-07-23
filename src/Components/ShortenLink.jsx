@@ -14,7 +14,6 @@ function ShortenLink() {
 
     const handleClick = () => {
         setLink(input)
-        console.log(input)
     }
 
     const fetchData = async () => {
